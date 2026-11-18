@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Football Only Expo 2026</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar md:navbar-expand bg-1 fg-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="Football Only Expo" height="32">
+      </a>
+      <button class="btn-icon navbar-toggler" type="button"
+        data-bs-toggle="drawer" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+      </button>
+      <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav"
+        aria-labelledby="navbarNavLabel">
+        <div class="drawer-header">
+          <span class="drawer-title" id="navbarNavLabel">Menu</span>
+          <button type="button" class="btn-close"
+            data-bs-dismiss="drawer" aria-label="Close"></button>
+        </div>
+        <div class="drawer-body">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </dialog>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container mt-3">
+      <h1 class="text-center my-4">Contact Us</h1>
+      <p class="text-center mb-5">Questions about a workshop or want to save a seat? Send us a message.</p>
+
+      <form style="max-width: 900px" class="mx-auto">
+        <div class="row g-4">
+
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" required>
+            </div>
+          </div>
+
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName">
+            </div>
+          </div>
+
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email"
+                placeholder="name@example.com" required>
+            </div>
+          </div>
+
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="workshop" class="form-label">Workshop</label>
+              <select class="form-control" id="workshop">
+                <option>Fan Art Sketch Lab</option>
+                <option>Team Bracelet Making</option>
+                <option>Football Film Screening</option>
+                <option>Fan Market and Swap</option>
+                <option>Signature Wall</option>
+                <option>Fan Stage Show</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-field">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-field">
+              <input type="checkbox" class="check" id="consent">
+              <label for="consent">I agree to be contacted about Football Only Expo events</label>
+            </div>
+          </div>
+
+        </div>
+        <button type="submit" class="btn-solid theme-primary mt-5">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="bg-primary fg-contrast-primary text-center p-3 mt-5">
+    <p class="mb-1">&copy; 2026 Football Only Expo · CCT360 Hub. Photos taken by the site author. Poster art by Football Only Shanghai.</p>
+    <p class="mb-0">
+      <a class="fg-contrast-primary" href="https://www.instagram.com/skylarzzz_oxo/">Instagram</a> ·
+      <a class="fg-contrast-primary" href="mailto:skylarrr.zhang@mail.utoronto.ca">Email</a> ·
+      <a class="fg-contrast-primary" href="https://github.com/Skylaroxo">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
